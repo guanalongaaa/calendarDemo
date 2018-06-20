@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //添加点击按钮???
+    //添加点击按钮
     UIButton * button = [[UIButton alloc]init];
     button.frame = CGRectMake(0, 0, 100, 40);
     button.center = CGPointMake(self.view.frame.size.width*0.5  , self.view.frame.size.height * 0.5);
